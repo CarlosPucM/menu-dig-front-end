@@ -1,0 +1,110 @@
+<!-- ============================================================== -->
+<!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            
+            
+
+                <!-- ============================================================== -->
+                <!-- Recent comment and chats -->
+                <!-- ============================================================== -->
+                <div class="row">
+                    <!-- column -->
+                    <div class="col-lg-4">
+                        <div class="card" style="box-shadow: 0px 0px 2px 1px rgba(0,0,0,.2);">
+                            <div class="card-body text-center">
+                                <p><img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/0e/cc/0a/dc/restaurant-chocolat.jpg" alt="card image" style="width: 150px; height: 150px; border-radius: 50%;"></p>
+                                <h4 class="card-title">Suc. Norte</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary">Editar <i class="mdi mdi-lead-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-lg-4">
+                        <div class="card" style="box-shadow: 0px 0px 2px 1px rgba(0,0,0,.2);">
+                            <div class="card-body text-center">
+                                <p><img class="img-fluid" src="https://www.enter.co/wp-content/uploads/2017/02/menu-restaurant-vintage-tableFINAL.jpg" alt="card image" style="width: 150px; height: 150px; border-radius: 50%;"></p>
+                                <h4 class="card-title">Suc. Centro</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary">Editar <i class="mdi mdi-lead-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column -->
+                    <div class="col-lg-4">
+                        <div class="card" style="box-shadow: 0px 0px 2px 1px rgba(0,0,0,.2);">
+                            <div class="card-body text-center">
+                                <p><img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/12/c1/c3/f5/restaurant-araz.jpg" alt="card image" style="width: 150px; height: 150px; border-radius: 50%;"></p>
+                                <h4 class="card-title">Estado de México Suc. Oriente</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary">Editar <i class="mdi mdi-lead-pencil"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- column add other menu -->
+                    <div class="col-lg-4">
+                        <div class="card" style="box-shadow: 0px 0px 2px 1px rgba(0,0,0,.2);">
+                            <div class="card-body text-center">
+                                <!-- <p><img class="img-fluid" src="https://www.creativefabrica.com/wp-content/uploads/2018/12/Restaurant-icon-vector-by-Hoeda80.jpg" alt="card image" style="width: 150px; height: 150px; border-radius: 50%;"></p> -->
+                                <h4 class="card-title">Add Menú</h4>
+                                <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#add-new-menu" class="btn btn-primary">Add Menú <i class="mdi mdi-plus-box"></i></a> 
+                                <!-- <a href="javascript:void(0)" data-toggle="modal" data-target="#add-new-event" class="btn m-t-20 btn-info btn-block waves-effect waves-light">
+                                    <i class="ti-plus"></i> Add New Event
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            
+
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- BEGIN MODAL -->
+            <!-- Modal Add Menu -->
+            <div class="modal fade none-border" id="add-new-menu">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background-color:#E8E8E8">
+                        <div class="modal-header">
+                            <h4 class="modal-title"><strong>Add</strong> a menu</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="control-label">Menu Name</label>
+                                        <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="control-label">Image Upload</label>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                                            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12">
+                                        <label class="control-label">Menu Description</label>
+                                        <!-- <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name" /> -->
+                                        <textarea class="form-control form-white" style="margin-top: 0px; margin-bottom: 0px; height: 73px;"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger waves-effect waves-light save-category" data-dismiss="modal">Save</button>
+                            <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODAL -->
